@@ -2,12 +2,12 @@ import React from "react"
 import {Navbar, Nav,} from "react-bootstrap"
 
 const AppNav = () => (
-<Navbar bg="primary">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+<Navbar style={{backgroundColor: "black", color: "white"}}>
+    <Navbar.Brand  href="#home" style={{ color: "white"}}>BLO</Navbar.Brand>
+    <Nav className="mr-auto" style={{color: "white"}}>
+      <Nav.Link href="#home" style={{ color: "white", margin: 20}}>Play with us</Nav.Link>
+      <Nav.Link href="#features" style={{color: "white", margin: 20}}> Music</Nav.Link>
+      <Nav.Link href="#pricing" style={{color: "white", margin: 20}}>Contact</Nav.Link>
     </Nav>
   </Navbar>
 

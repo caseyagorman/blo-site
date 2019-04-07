@@ -1,11 +1,12 @@
 import React from "react"
 import blo from "./static/blo.jpg"
 import "./app.css"
+import WhoWeAre from "./WhoWeAre"
 
 const Home = () => (
     <div className="container">
-    <div className="jumbotron" style={{backgroundColor: "white"}}>  <h1 style={{textAlign:"center", marginTop: -50}}>Welcome!</h1></div>
-   
+    <div className="jumbotron" style={{backgroundColor: "white"}}> </div>
+   <WhoWeAre/>
     </div>
 )
 
