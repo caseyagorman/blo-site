@@ -1,10 +1,11 @@
 import React, {Component} from "react"
 import {Form} from "react-bootstrap"
+import {Link} from "react-router-dom"
 
 class SignupForm extends Component {
     constructor(props){
         super(props)
-        this.state = {name: null, email: null, about: null}
+        this.state = {name: null, email: null, instrument: null, about: null}
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
     }
@@ -35,6 +36,13 @@ class SignupForm extends Component {
             placeholder= "email"
             value={this.state.email}
             />
+            <input 
+            onChange={this.handleChange}
+            name="instrument"
+            type="text"
+            placeholder="instrument"
+            value={this.state.instrument}
+            />
                <input 
             onChange={this.handleChange}
             name="about"
@@ -42,7 +50,7 @@ class SignupForm extends Component {
             placeholder="tell us about you"
             value={this.state.about}
             />
-            <label> <a href={"points-of-unity"}> Agree to points of unity?</a> </label>
+            <label> Agree to <Link to={"/about"}>  points of unity?</Link> </label>
             <input onChange={this.handleChange}
             name="agree"
             type="checkbox"

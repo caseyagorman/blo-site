@@ -5,6 +5,8 @@ import App from './App';
 import AppNav from "./AppNav"
 import Home from "./Home"
 import SignupForm from "./Form"
+import About from "./About"
+import Contact from "./Contact"
 import * as serviceWorker from './serviceWorker';
 import {Router, Route} from "react-router-dom"
 import history from "./history"
@@ -13,8 +15,10 @@ const AppRouter = () => (
     <Router history={history}>
     <div>
         <AppNav/>
-        <Route path ="/" component={Home}></Route>
+        <Route path ="//" component={Home}></Route>
         <Route path ="/signup" component={SignupForm}></Route>
+        <Route path ="/about" component={About}></Route>
+        <Route path ="/gig-request" component={Contact}></Route>
     </div>
     </Router>
 )
