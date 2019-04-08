@@ -7,12 +7,12 @@ const textBoxStyle= {display: "inline-block", textAlign: "center", width: 350, m
 const linkStyle={color:"#ef0067"}
 
 const Home = () => (
+<div>
+  
+        <div className="jumbotron" style={{backgroundColor: "white", textAlign: "center", marginBottom: 300}}> 
 
-    <div className="container">
-        <div className="jumbotron" style={{backgroundColor: "white"}}> </div>
 
-
-
+        <div style={{marginTop: 450}}>
         <div style={textBoxStyle}>
           
                 <h3>Book</h3>
@@ -41,13 +41,13 @@ const Home = () => (
                 <Link to= "/signup"  style={linkStyle}>  Get in touch </Link> and tell us a little bit about yourself!
                 <br></br>
         <br></br>
-      
+        </div>
             </div>
-       
-        
+            </div>
+            <div className="picture1" style={{backgroundColor: "white", marginLeft: 400}}> </div>
+            <div className="picture2" style={{backgroundColor: "white", marginLeft: 400 }} ></div>      
+            </div>
 
-   </div>
- 
 )
 
 export default Home
