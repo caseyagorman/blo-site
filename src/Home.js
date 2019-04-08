@@ -18,7 +18,7 @@ const Home = () => (
                 <h3>Book</h3>
                 <div style={lineDivStyle}>_______________________________</div> 
                 Have an action coming up that you'd like BLO to play at? We play for free at marches,
-                 strikes, or your landlord's house at 3 a.m. <Link to= "/gig-request" style={linkStyle}> Fill out a gig request form! </Link>
+                 strikes, or your landlord's house at 3 a.m. <Link to= "/gig-request" style={linkStyle}> Fill out </Link> a gig request form!
         <br></br>
         <br></br>
       
