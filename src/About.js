@@ -49,7 +49,7 @@ const About = () => (
       <div style={{fontSize: 16}}>One of the highest political priorities for the BLO is fighting the displacement caused by gentrification.
        We believe that everyone has a right to
            a stable home and that low-cost housing and small businesses should be protected from the boom and bust cycles of the real estate market.
-                    <a href="/housing-justice"> Read more
+                    <a style={{color:"#ef0067"}} href="/housing-justice"> Read more
            </a>
            </div>
            </div>
@@ -60,7 +60,7 @@ const About = () => (
       the media, and parts of the U.S.-born population. People have been arrested, separated from their children, and 
       "disappeared". We believe that immigrants and U.S.-born 
           people must stand together to resist these attacks.
-           <a href="/immigrant-rights"> Read more
+           <a style={{color:"#ef0067"}}  href="/immigrant-rights"> Read more
            </a>
        
           
@@ -118,7 +118,7 @@ const About = () => (
  <br></br>
      
        <h3>Respect for Culture</h3>
-  <div>We work for a society that respects all cultures and work to promote cross-cultural understanding, social justice and human solidarity. <br></br>We attempt to do this in a manner
+  <div>We work for a society that respects all cultures and work to <br></br>promote cross-cultural understanding, social justice and human solidarity. <br></br>We attempt to do this in a manner
        that avoids exploitation, stealing or ignorance of the world's cultures.</div>
  <br></br>
        

@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import AppNav from "./AppNav"
 import Home from "./Home"
-import SignupForm from "./Form"
+import MembershipRequest from "./MembershipRequest"
 import About from "./About"
-import PointsOfUnity from "./PointsOfUnity"
-import Contact from "./Contact"
 import * as serviceWorker from './serviceWorker';
 import {Router, Route} from "react-router-dom"
 import history from "./history"
+import GigRequest from './GigRequest';
 
 
 const AppRouter = () => (
@@ -19,9 +17,9 @@ const AppRouter = () => (
     <div>
         <AppNav/>
         <Route path ="//" component={Home}></Route>
-        <Route path ="/signup" component={SignupForm}></Route>
+        <Route path ="/signup" component={MembershipRequest}></Route>
         <Route path ="/about" component={About}></Route>
-        <Route path ="/gig-request" component={Contact}></Route>
+        <Route path ="/gig-request" component={GigRequest}></Route>
     </div>
     </Router>
 )

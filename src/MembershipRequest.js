@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import {Form, FormControl, Button} from "react-bootstrap"
 import {Link} from "react-router-dom"
 
-class SignupForm extends Component {
+class MembershipRequest extends Component {
     constructor(props){
         super(props)
         this.state = {name: "", email: "", instrument: "", about: "", agree: true}
@@ -31,7 +31,7 @@ class SignupForm extends Component {
         return (
             <div className="container">
             <h1 style={{textAlign: "center"}}>Membership Request Form</h1>
-            <div style={{textAlign: "center"}}>If you see us on the street, we are always open to folks coming up and playing with us. 
+            <div style={{textAlign: "center", fontSize: 16}}>If you see us on the street, we are always open to folks coming up and playing with us. 
             If you want to get more involved, please fill out the form below. 
             B.L.O. is open to all musical levels. 
             Please check out our politics and look over some of our past actions to see 
@@ -84,4 +84,4 @@ class SignupForm extends Component {
     }
 }
 
-export default SignupForm
+export default MembershipRequest
