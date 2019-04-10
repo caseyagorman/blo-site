@@ -9,7 +9,7 @@ const linkStyle={color:"#ef0067"}
 const Home = () => (
 <div>
   
-        <div className="jumbotron" style={{backgroundColor: "white", textAlign: "center", marginBottom: 300}}> 
+        <div className="jumbotron" id="home" style={{backgroundColor: "white", textAlign: "center", marginBottom: 300}}> 
 
 
         <div style={{marginTop: 450}}>
@@ -44,8 +44,10 @@ const Home = () => (
         </div>
             </div>
             </div>
-            <div className="picture1" style={{backgroundColor: "white", marginLeft: 400}}> </div>
-            <div className="picture2" style={{backgroundColor: "white", marginLeft: 400 }} ></div>      
+            <br></br>
+            <br></br>
+            <div className="picture1" style={{backgroundColor: "white", marginLeft: 350}}> </div>
+            <div className="picture2" style={{backgroundColor: "white", marginLeft: 350 }} ></div>      
             </div>
 
 )

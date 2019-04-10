@@ -6,12 +6,15 @@ import AppNav from "./AppNav"
 import Home from "./Home"
 import SignupForm from "./Form"
 import About from "./About"
+import PointsOfUnity from "./PointsOfUnity"
 import Contact from "./Contact"
 import * as serviceWorker from './serviceWorker';
 import {Router, Route} from "react-router-dom"
 import history from "./history"
 
+
 const AppRouter = () => (
+
     <Router history={history}>
     <div>
         <AppNav/>
